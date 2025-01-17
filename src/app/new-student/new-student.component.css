@@ -1,0 +1,54 @@
+.backdrop{
+    background-color: #f3f6fb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+dialog {
+    width: 90%;
+    max-width: 30rem;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+    overflow: hidden;
+    padding: 1rem;
+    top: 5rem;
+}
+
+.actions{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+
+}
+button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 5rem;
+    padding: .4rem 3.5rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+button[type="button"]{
+    background-color: red;
+}
+
+button[type="reset"]:hover{
+    background-color: rgba(255,0,0,0.5);
+}
+
+button[type="submit"]{
+    background-color: blue;
+}
+
+button[type="submit"]:hover{
+    background-color: rgba(0,0,255,0.5);
+}
