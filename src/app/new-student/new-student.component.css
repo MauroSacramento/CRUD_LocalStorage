@@ -19,6 +19,42 @@ dialog {
     top: 5rem;
 }
 
+
+form h1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 1.2rem;
+    font-size: 26px;
+    text-align: center;
+}
+
+form label{
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    border-radius: .3rem;
+    border: 1px solid #8ea2c1;
+    height: 2.5rem;
+    padding-left: .5rem;
+}
+form textarea {
+    width: 100%;
+    border: 1px solid #8ea2c1;
+    border-radius: .3rem;
+    padding-left: .5rem;
+}
+
+form .contact {
+    display: flex;
+    gap: 1.5rem;
+}
+
+form .morada {
+    display: flex;
+    gap: 1.5rem;
+}
+
 .actions{
     display: flex;
     gap: 1rem;
